@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  output: "export",
+  basePath: "/OdayTarek-portfolio",
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
